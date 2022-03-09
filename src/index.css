@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    margin: 0 0 40px;
+}
+
+.editor {
+    margin-bottom: 40px;
+}
+
+.editor-actions {
+    margin-top: 15px;
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.tabs-content {
+    min-height: 268px;
+}
+
+.tab-pane >:last-child {
+    margin-bottom: 0;
+}
+
+.panel.is-expanded .panel-body,
+.panel.is-expanded .panel-footer {
+    display: block;
+}
+
+.panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.panel-time {
+    margin-left: 10px;
+    color: #929292;
+}
+
+.panel-body,
+.panel-footer {
+    display: none;
+    color: #000;
+}
